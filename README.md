@@ -1,6 +1,10 @@
 # Flightaware-Parser
 Script to parse flight data from flightaware.com
 
+Rewritten in Java based on shivasiddharth's original python script here: 
+
+[![Flightaware-Parser](https://img.shields.io/badge/FlightawareParser-blue)](https://github.com/shivasiddharth/Flightaware-Parser)
+
 ## Example Usage:    
 ```    
 import flightawareparser
