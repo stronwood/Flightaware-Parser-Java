@@ -1,5 +1,5 @@
 # Flightaware-Parser
-Script to parse flight data from flightaware.com
+Java program to parse flight data from flightaware.com
 
 Rewritten in Java based on shivasiddharth's original python script here: 
 
@@ -7,18 +7,18 @@ Rewritten in Java based on shivasiddharth's original python script here:
 
 ## Example Usage:    
 ```    
-import flightawareparser
+import com.foo.FlightAwareParser;
 
+// pass in a flightcode (copy from flightaware.com/live/flight/HERE) and return a String[] array
 
-facheck= flightawareparser.fascrapper()
+String[] variable = flightData(flightCode);
+```
+____________________________
 
-details=facheck.flightdata("BA35")
-
-print(details)
-
-#Sample output: ('British Airways 35', 'Boeing 787-9 (twin-jet)', 'London, United Kingdom', 'Chennai / Madras, India', 'airborne', 370, 528, 'November 29 2019 14:30:00', 'November 29 2019 15:01:38', 'November 30 2019 00:03:00', 'November 30 2019 00:13:00', 'November 29 2019 14:33:00', 'November 29 2019 15:01:00', None, None, 'In air, covered 604 nautical miles with 3858 nautical miles remaining.')      
-
-```    
+```
+#Sample output of running for(String var : variable) -
+('British Airways 35', 'Boeing 787-9 (twin-jet)', 'London, United Kingdom', 'Chennai / Madras, India', 'airborne', 370, 528, 'November 29 2019 14:30:00', 'November 29 2019 15:01:38', 'November 30 2019 00:03:00', 'November 30 2019 00:13:00', 'November 29 2019 14:33:00', 'November 29 2019 15:01:00', None, None, 'In air, covered 604 nautical miles with 3858 nautical miles remaining.')  
+```
      
 ## Order of output:  
 Flight number/code   
