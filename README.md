@@ -11,7 +11,8 @@ import com.foo.FlightAwareParser;
 
 // pass in a flightcode (copy from flightaware.com/live/flight/HERE) and return a String[] array
 
-String[] variable = flightData(flightCode);
+FlightAwareParser flightAwareParser = new FlightAwareParser;
+String[] variable = flightAwareParser.flightData(flightCode);
 ```
 ____________________________
 
