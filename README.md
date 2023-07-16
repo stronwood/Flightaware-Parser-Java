@@ -12,7 +12,7 @@ import com.foo.FlightAwareParser;
 // pass in a flightcode (copy from flightaware.com/live/flight/HERE) and return a String[] array
 
 FlightAwareParser flightAwareParser = new FlightAwareParser;
-String[] variable = flightAwareParser.flightData(flightCode);
+String[] variable = flightAwareParser.flightData("BA35");
 ```
 ____________________________
 
