@@ -13,6 +13,7 @@ import com.foo.FlightAwareParser;
 
 FlightAwareParser flightAwareParser = new FlightAwareParser;
 String[] variable = flightAwareParser.flightData("BA35");
+// Pro tip: Use "random" in place of "BA35" for a random flight
 ```
 ____________________________
 
