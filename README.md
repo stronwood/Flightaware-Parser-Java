@@ -1,4 +1,4 @@
-# Flightaware-Parser
+# Flightaware-Parser-Java
 Java program to parse flight data from flightaware.com
 
 Rewritten in Java based on shivasiddharth's original python script here: 
